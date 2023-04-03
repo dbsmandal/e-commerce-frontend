@@ -11,6 +11,7 @@ const Container = styled.div`
 `
 const Wrapper = styled.div`
 padding:2px 20px;
+margin-top:-10px;
 display:flex;
 justify-content:space-between;
 align-items:center;
