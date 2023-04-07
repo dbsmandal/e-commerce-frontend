@@ -46,7 +46,11 @@ flex:1;
 `
 const Logo = styled.h1`
 font-size:24px;
-font-weight:bold
+font-weight:bold;
+color:teal;
+font-style:italic;
+cursor: pointer;
+
 
 `
 
@@ -75,7 +79,7 @@ const Navbar = () => {
                     </SearchContainer>
                 </Left>
                 <Center>
-                    <Logo>E-COMMERCE-WEB-APP</Logo>
+                    <Logo>ECOMMERCE WEB APP</Logo>
                 </Center>
                 <Right>
                     <MenuItem>Register</MenuItem>
